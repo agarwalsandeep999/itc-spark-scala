@@ -1,3 +1,6 @@
+-- to load data from hdfs
+--- val retailRDD = sc.textFile("hdfs://quickstart.cloudera:8020/user/training/Retail_Data")
+
 val retailRDD = sc.textFile("file:/home/training/Retail_Data")
 
 retailRDD.count
